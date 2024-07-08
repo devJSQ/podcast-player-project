@@ -4,18 +4,14 @@
 Using fundamental data structures and algorithms, solve real-world problems with a stack.
 
 ### Problem
-A software development company wants to build a `PodcastPlayer` system to keep track of the user's playback history. The system allows to perform various operations such as **add()**, **play()** , **go_back()**, **printList()**.
-
-> Each podcast has a name, channel, speaker, guests, and duration.  
+A software development company plans to develop a podcast player system that allows users to listen to podcasts and manage playlists. Your task is to implement a playlist tracking feature, enabling the user to keep track of their podcast playlist and navigate through it by playing new episodes or going back to previous ones.  
  
-  
-
 ### Implementation
-- Create a `playbackHistory` stack that can accommodate 10 podcasts.
-- Write a function `add()` to add a new podcast to the playbackHistory list and print a message indicating the addition.
-- Write a function `play()` to retrieve the last added podcast from the list and print a message indicating that the podcast is being played. If the playbackHistory list is not empty.
-- Write a function `go_back()`  to play the previous podcast in the playback history if the playbackHistory list is not empty or it contains only one podcast. Otherwise, print a message indicating that it's not possible to go back. 
-- Write a function `printList()` to print all podcast names in the playbackHistory.
+- Create a `playbackHistory` stack that can accommodate 10 podcasts. Each podcast should include a name, channel, speaker, guests, and duration.
+- Write a function `add()` to add a new podcast to the `playbackHistory` list and print a message indicating the addition.
+- Write a function `play()` to retrieve the current playing podcast info and print a message indicating that the podcast is being played. If the `playbackHistory` list is not empty.
+- Write a function `previous()`  to play the previous podcast in the playback history if the `playbackHistory` list is not empty, or it contains only one podcast. Otherwise, print a message indicating that going back is impossible. 
+- Write a function `printALL()` to print all podcast names in the `playbackHistory`.
 - In the main method:
   - Add 10 podcasts to the playback history.
   - Print the initial playback history.
