@@ -4,7 +4,7 @@
 Using fundamental data structures and algorithms, solve real-world problems with a stack.
 
 ### Problem
-A software development company plans to develop a podcast player system that allows users to listen to podcasts and manage playlists. Your task is to implement a playlist tracking feature, enabling the user to keep track of their podcast playlist and navigate through it by playing new episodes or going back to previous ones.  
+A software development company plans to develop a podcast player system that allows users to listen to podcasts and manage playlists, your responsibility is to build a playlist tracking feature, enabling the user to keep track of their podcast playlist and navigate through it by playing new episodes or returning to previous ones.  
  
 ### Implementation
 - Create a `playbackHistory` stack that can accommodate 10 podcasts. Each podcast should include a name, channel, speaker, guests, and duration.
