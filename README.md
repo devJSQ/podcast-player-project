@@ -31,5 +31,5 @@ public class PodcastPlayer {
 ### Qualification to pass
 - [ ] The code should run successfully.
 - [ ] Write all required functions correctly.
-- [ ] Completely define the Podcast class.
-- [ ] Completely define  PodcastPlayer class.
+- [ ] Completely define the `Podcast` class.
+- [ ] Completely define  the `PodcastPlayer` class.
